@@ -2,6 +2,11 @@
 
 Walkthroughs de máquinas y salas de CTF que voy resolviendo, principalmente en TryHackMe y HackTheBox.
 
+## HackTheBox
+
+- [Busqueda](HTB/busqueda)
+- [Updown](HTB/updown)
+
 ## TryHackMe
 
 - [Alfred](THM/alfred)
