@@ -317,4 +317,7 @@ Full-Width Styles
   background: #212121;
 }
 
+#footer_wrap a {
+  display: block;
+}
 
