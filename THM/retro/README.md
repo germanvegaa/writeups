@@ -22,6 +22,6 @@ Build 14393 de Windows Server 2016 es vulnerable a CVE-2017-0213, un fallo de el
 
 ---
 
-GitHub: [github.com/germanvegaa](https://github.com/germanvegaa)
-TryHackMe: [tryhackme.com/p/G3RM4N](https://tryhackme.com/p/G3RM4N)
-HackTheBox: [app.hackthebox.com/public/users/3990132](https://app.hackthebox.com/public/users/3990132)
+- GitHub: [github.com/germanvegaa](https://github.com/germanvegaa)
+- TryHackMe: [tryhackme.com/p/G3RM4N](https://tryhackme.com/p/G3RM4N)
+- HackTheBox: [app.hackthebox.com/public/users/3990132](https://app.hackthebox.com/public/users/3990132)

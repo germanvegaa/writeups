@@ -24,6 +24,6 @@ Coloqué mi propio binario como `Advanced.exe` en esa ruta, detuve y reinicié e
 
 ---
 
-GitHub: [github.com/germanvegaa](https://github.com/germanvegaa)
-TryHackMe: [tryhackme.com/p/G3RM4N](https://tryhackme.com/p/G3RM4N)
-HackTheBox: [app.hackthebox.com/public/users/3990132](https://app.hackthebox.com/public/users/3990132)
+- GitHub: [github.com/germanvegaa](https://github.com/germanvegaa)
+- TryHackMe: [tryhackme.com/p/G3RM4N](https://tryhackme.com/p/G3RM4N)
+- HackTheBox: [app.hackthebox.com/public/users/3990132](https://app.hackthebox.com/public/users/3990132)
