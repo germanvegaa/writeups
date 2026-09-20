@@ -35,6 +35,6 @@ La sala plantea varios vectores de privesc clásicos de Windows para practicar u
 
 ---
 
-GitHub: [github.com/germanvegaa](https://github.com/germanvegaa)
-TryHackMe: [tryhackme.com/p/G3RM4N](https://tryhackme.com/p/G3RM4N)
-HackTheBox: [app.hackthebox.com/public/users/3990132](https://app.hackthebox.com/public/users/3990132)
+- GitHub: [github.com/germanvegaa](https://github.com/germanvegaa)
+- TryHackMe: [tryhackme.com/p/G3RM4N](https://tryhackme.com/p/G3RM4N)
+- HackTheBox: [app.hackthebox.com/public/users/3990132](https://app.hackthebox.com/public/users/3990132)
