@@ -1,0 +1,3207 @@
+[{
+    "attributes": {
+        "cn": [
+            "AppLocker-Restricted"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "Restricted users - AppLocker enforced"
+        ],
+        "distinguishedName": [
+            "CN=AppLocker-Restricted,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "member": [
+            "CN=t.jones,CN=Users,DC=ctf,DC=local",
+            "CN=j.smith,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "AppLocker-Restricted"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c1f60225-44e1-47e8-9d6b-7016f1f10905}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-1614"
+        ],
+        "sAMAccountName": [
+            "AppLocker-Restricted"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            20594
+        ],
+        "uSNCreated": [
+            20588
+        ],
+        "whenChanged": [
+            "2026-05-20 03:24:48+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 03:24:48+00:00"
+        ]
+    },
+    "dn": "CN=AppLocker-Restricted,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "sysadmin"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "IT Sysadmins - exempt from AppLocker"
+        ],
+        "distinguishedName": [
+            "CN=sysadmin,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "member": [
+            "CN=r.williams,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "sysadmin"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{8bbdf3c9-b9cf-4929-9066-5816c90966b1}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-1613"
+        ],
+        "sAMAccountName": [
+            "sysadmin"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            20585
+        ],
+        "uSNCreated": [
+            20581
+        ],
+        "whenChanged": [
+            "2026-05-20 03:24:48+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 03:24:48+00:00"
+        ]
+    },
+    "dn": "CN=sysadmin,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "DnsUpdateProxy"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "DNS clients who are permitted to perform dynamic updates on behalf of some other clients (such as DHCP servers)."
+        ],
+        "distinguishedName": [
+            "CN=DnsUpdateProxy,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "name": [
+            "DnsUpdateProxy"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{48b9efdd-51bc-47c0-bf26-e96a79c02dfe}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-1110"
+        ],
+        "sAMAccountName": [
+            "DnsUpdateProxy"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12491
+        ],
+        "uSNCreated": [
+            12491
+        ],
+        "whenChanged": [
+            "2026-05-20 02:23:33+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:23:33+00:00"
+        ]
+    },
+    "dn": "CN=DnsUpdateProxy,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "DnsAdmins"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "DNS Administrators Group"
+        ],
+        "distinguishedName": [
+            "CN=DnsAdmins,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "name": [
+            "DnsAdmins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{62d9673f-16f0-48b3-9f24-c96650371159}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-1109"
+        ],
+        "sAMAccountName": [
+            "DnsAdmins"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12488
+        ],
+        "uSNCreated": [
+            12486
+        ],
+        "whenChanged": [
+            "2026-05-20 02:23:33+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:23:33+00:00"
+        ]
+    },
+    "dn": "CN=DnsAdmins,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Enterprise Key Admins"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members of this group can perform administrative actions on key objects within the forest."
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Key Admins,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Enterprise Key Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{e816c3ac-c6d5-46a5-9ff9-ecd7d54efa98}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-527"
+        ],
+        "sAMAccountName": [
+            "Enterprise Key Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            16510
+        ],
+        "uSNCreated": [
+            12453
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Key Admins,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Key Admins"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members of this group can perform administrative actions on key objects within the domain."
+        ],
+        "distinguishedName": [
+            "CN=Key Admins,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Key Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{4c50e306-eea9-4533-aa62-85b600378a32}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-526"
+        ],
+        "sAMAccountName": [
+            "Key Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            16507
+        ],
+        "uSNCreated": [
+            12450
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Key Admins,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Protected Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are afforded additional protections against authentication security threats. See http://go.microsoft.com/fwlink/?LinkId=298939 for more information."
+        ],
+        "distinguishedName": [
+            "CN=Protected Users,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Protected Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{8d2f688a-6b07-4f2f-9616-547ed8d62a0a}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-525"
+        ],
+        "sAMAccountName": [
+            "Protected Users"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12447
+        ],
+        "uSNCreated": [
+            12445
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:54+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Protected Users,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Cloneable Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group that are domain controllers may be cloned."
+        ],
+        "distinguishedName": [
+            "CN=Cloneable Domain Controllers,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Cloneable Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{7766c7b2-9252-4095-b888-36a5c2e7f9bf}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-522"
+        ],
+        "sAMAccountName": [
+            "Cloneable Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12442
+        ],
+        "uSNCreated": [
+            12440
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:54+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Cloneable Domain Controllers,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are Read-Only Domain Controllers in the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c47b7882-10b0-4630-8d5a-7176ba366d18}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-498"
+        ],
+        "sAMAccountName": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12431
+        ],
+        "uSNCreated": [
+            12429
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:54+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Read-only Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members of this group are Read-Only Domain Controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Read-only Domain Controllers,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Read-only Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{4ed5aecc-96fc-4620-baee-fc3a94c55dbb}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-521"
+        ],
+        "sAMAccountName": [
+            "Read-only Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            16528
+        ],
+        "uSNCreated": [
+            12419
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Read-only Domain Controllers,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Denied RODC Password Replication Group"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group cannot have their passwords replicated to any read-only domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Read-only Domain Controllers,CN=Users,DC=ctf,DC=local",
+            "CN=Group Policy Creator Owners,CN=Users,DC=ctf,DC=local",
+            "CN=Domain Admins,CN=Users,DC=ctf,DC=local",
+            "CN=Cert Publishers,CN=Users,DC=ctf,DC=local",
+            "CN=Enterprise Admins,CN=Users,DC=ctf,DC=local",
+            "CN=Schema Admins,CN=Users,DC=ctf,DC=local",
+            "CN=Domain Controllers,CN=Users,DC=ctf,DC=local",
+            "CN=krbtgt,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Denied RODC Password Replication Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{66805c2c-a33e-4879-974a-78077775c831}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-572"
+        ],
+        "sAMAccountName": [
+            "Denied RODC Password Replication Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12433
+        ],
+        "uSNCreated": [
+            12405
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:54+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group can have their passwords replicated to all read-only domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Allowed RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{62eac2ad-bd8d-4891-a1a3-277e1075e2e1}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-571"
+        ],
+        "sAMAccountName": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12404
+        ],
+        "uSNCreated": [
+            12402
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:54+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:54+00:00"
+        ]
+    },
+    "dn": "CN=Allowed RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Terminal Server License Servers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can update user accounts in Active Directory with information about license issuance, for the purpose of tracking and reporting TS Per User CAL usage"
+        ],
+        "distinguishedName": [
+            "CN=Terminal Server License Servers,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Terminal Server License Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{6ca1f488-27b5-47dc-bc83-e91f27d79d72}"
+        ],
+        "objectSid": [
+            "S-1-5-32-561"
+        ],
+        "sAMAccountName": [
+            "Terminal Server License Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12377
+        ],
+        "uSNCreated": [
+            12375
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Terminal Server License Servers,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Windows Authorization Access Group"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group have access to the computed tokenGroupsGlobalAndUniversal attribute on User objects"
+        ],
+        "distinguishedName": [
+            "CN=Windows Authorization Access Group,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Windows Authorization Access Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{bf849f1d-0eae-48ef-b5b6-81d61f0f87d9}"
+        ],
+        "objectSid": [
+            "S-1-5-32-560"
+        ],
+        "sAMAccountName": [
+            "Windows Authorization Access Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12396
+        ],
+        "uSNCreated": [
+            12372
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Windows Authorization Access Group,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Incoming Forest Trust Builders"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can create incoming, one-way trusts to this forest"
+        ],
+        "distinguishedName": [
+            "CN=Incoming Forest Trust Builders,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Incoming Forest Trust Builders"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a27c0cc8-189a-4b9d-bb6e-49e5687cb2b3}"
+        ],
+        "objectSid": [
+            "S-1-5-32-557"
+        ],
+        "sAMAccountName": [
+            "Incoming Forest Trust Builders"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12371
+        ],
+        "uSNCreated": [
+            12369
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Incoming Forest Trust Builders,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "A backward compatibility group which allows read access on all users and groups in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{e1ec6716-6703-4210-ab72-e6a9fdcc0b78}"
+        ],
+        "objectSid": [
+            "S-1-5-32-554"
+        ],
+        "sAMAccountName": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12393
+        ],
+        "uSNCreated": [
+            12366
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Account Operators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members can administer domain user and group accounts"
+        ],
+        "distinguishedName": [
+            "CN=Account Operators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Account Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{763859d7-e800-4761-9b80-857f2bd98073}"
+        ],
+        "objectSid": [
+            "S-1-5-32-548"
+        ],
+        "sAMAccountName": [
+            "Account Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            16523
+        ],
+        "uSNCreated": [
+            12363
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Account Operators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Server Operators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members can administer domain servers"
+        ],
+        "distinguishedName": [
+            "CN=Server Operators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Server Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{467ae0dd-0c5d-44ec-a8e0-5d7db491afe9}"
+        ],
+        "objectSid": [
+            "S-1-5-32-549"
+        ],
+        "sAMAccountName": [
+            "Server Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            16524
+        ],
+        "uSNCreated": [
+            12360
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Server Operators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RAS and IAS Servers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group can access remote access properties of users"
+        ],
+        "distinguishedName": [
+            "CN=RAS and IAS Servers,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RAS and IAS Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{94fb71fd-ead2-4250-b44d-b92dc2a5a032}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-553"
+        ],
+        "sAMAccountName": [
+            "RAS and IAS Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12359
+        ],
+        "uSNCreated": [
+            12357
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=RAS and IAS Servers,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Group Policy Creator Owners"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group can modify group policy for the domain"
+        ],
+        "distinguishedName": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=ctf,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Group Policy Creator Owners"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{d05c0d5d-03ae-4c68-a107-dbb2e1176d24}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-520"
+        ],
+        "sAMAccountName": [
+            "Group Policy Creator Owners"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12391
+        ],
+        "uSNCreated": [
+            12354
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Group Policy Creator Owners,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Guests"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "All domain guests"
+        ],
+        "distinguishedName": [
+            "CN=Domain Guests,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Domain Guests"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{4667f628-bf1c-467c-a20a-19939b7af1b4}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-514"
+        ],
+        "sAMAccountName": [
+            "Domain Guests"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12353
+        ],
+        "uSNCreated": [
+            12351
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Domain Guests,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "All domain users"
+        ],
+        "distinguishedName": [
+            "CN=Domain Users,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Users,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Domain Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{b15535c0-2dc3-4846-b8b8-6c84260d9408}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-513"
+        ],
+        "sAMAccountName": [
+            "Domain Users"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12350
+        ],
+        "uSNCreated": [
+            12348
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Domain Users,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Domain Admins"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Designated administrators of the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Admins,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=ctf,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local",
+            "CN=Administrators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Domain Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{4d520653-7b10-4275-9deb-753070119e92}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-512"
+        ],
+        "sAMAccountName": [
+            "Domain Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            16508
+        ],
+        "uSNCreated": [
+            12345
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Domain Admins,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Cert Publishers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are permitted to publish certificates to the directory"
+        ],
+        "distinguishedName": [
+            "CN=Cert Publishers,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Cert Publishers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{ae258069-264e-43f3-83df-d82efe4466e3}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-517"
+        ],
+        "sAMAccountName": [
+            "Cert Publishers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12344
+        ],
+        "uSNCreated": [
+            12342
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Cert Publishers,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Enterprise Admins"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Designated administrators of the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Admins,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=ctf,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local",
+            "CN=Administrators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Enterprise Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{2b4d5ad5-72dd-4743-9365-b52be490a7ac}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-519"
+        ],
+        "sAMAccountName": [
+            "Enterprise Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            16513
+        ],
+        "uSNCreated": [
+            12339
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Admins,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Schema Admins"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Designated administrators of the schema"
+        ],
+        "distinguishedName": [
+            "CN=Schema Admins,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=ctf,DC=local"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Schema Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{65c13ed8-f1d0-4aed-94c2-4602d52c7c59}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-518"
+        ],
+        "sAMAccountName": [
+            "Schema Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            16514
+        ],
+        "uSNCreated": [
+            12336
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Schema Admins,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "All domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Controllers,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{bb02107a-f010-42b2-bc3e-533a88e0a6a9}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-516"
+        ],
+        "sAMAccountName": [
+            "Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            16527
+        ],
+        "uSNCreated": [
+            12333
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Domain Controllers,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Computers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "All workstations and servers joined to the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Computers,CN=Users,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Domain Computers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{1c8f8f98-c7fd-44dc-a7c1-e9a0a608c274}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-515"
+        ],
+        "sAMAccountName": [
+            "Domain Computers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12332
+        ],
+        "uSNCreated": [
+            12330
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=Domain Computers,CN=Users,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Storage Replica Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group have complete and unrestricted access to all features of Storage Replica."
+        ],
+        "distinguishedName": [
+            "CN=Storage Replica Administrators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Storage Replica Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{2ffca1c8-8511-49cc-bd8d-d364d6e39d37}"
+        ],
+        "objectSid": [
+            "S-1-5-32-582"
+        ],
+        "sAMAccountName": [
+            "Storage Replica Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8232
+        ],
+        "uSNCreated": [
+            8232
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Storage Replica Administrators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Remote Management Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user."
+        ],
+        "distinguishedName": [
+            "CN=Remote Management Users,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Remote Management Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a7ee59d1-c354-4b94-bdfd-274bbffc122c}"
+        ],
+        "objectSid": [
+            "S-1-5-32-580"
+        ],
+        "sAMAccountName": [
+            "Remote Management Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            28724
+        ],
+        "uSNCreated": [
+            8231
+        ],
+        "whenChanged": [
+            "2026-05-20 15:21:10+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Remote Management Users,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Access Control Assistance Operators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can remotely query authorization attributes and permissions for resources on this computer."
+        ],
+        "distinguishedName": [
+            "CN=Access Control Assistance Operators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Access Control Assistance Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{caf13580-8d40-432e-8e43-01edff2575d7}"
+        ],
+        "objectSid": [
+            "S-1-5-32-579"
+        ],
+        "sAMAccountName": [
+            "Access Control Assistance Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8230
+        ],
+        "uSNCreated": [
+            8230
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Access Control Assistance Operators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Hyper-V Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group have complete and unrestricted access to all features of Hyper-V."
+        ],
+        "distinguishedName": [
+            "CN=Hyper-V Administrators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Hyper-V Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{15d7c508-0dd4-430d-8e2e-07e8c212bc23}"
+        ],
+        "objectSid": [
+            "S-1-5-32-578"
+        ],
+        "sAMAccountName": [
+            "Hyper-V Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8229
+        ],
+        "uSNCreated": [
+            8229
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Hyper-V Administrators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Management Servers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group can perform routine administrative actions on servers running Remote Desktop Services. This group needs to be populated on all servers in a Remote Desktop Services deployment. The servers running the RDS Central Management service must be included in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Management Servers,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Management Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{ff0258dc-a720-4492-8c7e-9bec311351d0}"
+        ],
+        "objectSid": [
+            "S-1-5-32-577"
+        ],
+        "sAMAccountName": [
+            "RDS Management Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8228
+        ],
+        "uSNCreated": [
+            8228
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=RDS Management Servers,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Endpoint Servers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group run virtual machines and host sessions where users RemoteApp programs and personal virtual desktops run. This group needs to be populated on servers running RD Connection Broker. RD Session Host servers and RD Virtualization Host servers used in the deployment need to be in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Endpoint Servers,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Endpoint Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{f774421c-7cc0-4d37-8ea2-a50d56bf4bc2}"
+        ],
+        "objectSid": [
+            "S-1-5-32-576"
+        ],
+        "sAMAccountName": [
+            "RDS Endpoint Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8227
+        ],
+        "uSNCreated": [
+            8227
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=RDS Endpoint Servers,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Remote Access Servers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group enable users of RemoteApp programs and personal virtual desktops access to these resources. In Internet-facing deployments, these servers are typically deployed in an edge network. This group needs to be populated on servers running RD Connection Broker. RD Gateway servers and RD Web Access servers used in the deployment need to be in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Remote Access Servers,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Remote Access Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{e2d5368d-6bdc-46c6-983e-dd2aa4c6c466}"
+        ],
+        "objectSid": [
+            "S-1-5-32-575"
+        ],
+        "sAMAccountName": [
+            "RDS Remote Access Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8226
+        ],
+        "uSNCreated": [
+            8226
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=RDS Remote Access Servers,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Certificate Service DCOM Access"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are allowed to connect to Certification Authorities in the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Certificate Service DCOM Access,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Certificate Service DCOM Access"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{56e728e6-7167-41e2-ac06-e9588b36fd61}"
+        ],
+        "objectSid": [
+            "S-1-5-32-574"
+        ],
+        "sAMAccountName": [
+            "Certificate Service DCOM Access"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8225
+        ],
+        "uSNCreated": [
+            8225
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Certificate Service DCOM Access,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Event Log Readers"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can read event logs from local machine"
+        ],
+        "distinguishedName": [
+            "CN=Event Log Readers,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Event Log Readers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{402361de-ccea-4482-96ed-2df052c6e4ce}"
+        ],
+        "objectSid": [
+            "S-1-5-32-573"
+        ],
+        "sAMAccountName": [
+            "Event Log Readers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8224
+        ],
+        "uSNCreated": [
+            8224
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Event Log Readers,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Cryptographic Operators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members are authorized to perform cryptographic operations."
+        ],
+        "distinguishedName": [
+            "CN=Cryptographic Operators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Cryptographic Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{b3090840-5b39-4cd2-88a2-1e248e9d2727}"
+        ],
+        "objectSid": [
+            "S-1-5-32-569"
+        ],
+        "sAMAccountName": [
+            "Cryptographic Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8223
+        ],
+        "uSNCreated": [
+            8223
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Cryptographic Operators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "IIS_IUSRS"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Built-in group used by Internet Information Services."
+        ],
+        "distinguishedName": [
+            "CN=IIS_IUSRS,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=ctf,DC=local"
+        ],
+        "name": [
+            "IIS_IUSRS"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{1cfcd8b7-ecdf-470d-bb51-178813c4e474}"
+        ],
+        "objectSid": [
+            "S-1-5-32-568"
+        ],
+        "sAMAccountName": [
+            "IIS_IUSRS"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8222
+        ],
+        "uSNCreated": [
+            8219
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=IIS_IUSRS,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Distributed COM Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members are allowed to launch, activate and use Distributed COM objects on this machine."
+        ],
+        "distinguishedName": [
+            "CN=Distributed COM Users,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Distributed COM Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{5d5c7618-e0d1-4391-9a11-49271a88e4df}"
+        ],
+        "objectSid": [
+            "S-1-5-32-562"
+        ],
+        "sAMAccountName": [
+            "Distributed COM Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8218
+        ],
+        "uSNCreated": [
+            8218
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Distributed COM Users,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Performance Log Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer"
+        ],
+        "distinguishedName": [
+            "CN=Performance Log Users,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Performance Log Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{7ecd4523-8123-4ff2-a1d0-478093dbdc74}"
+        ],
+        "objectSid": [
+            "S-1-5-32-559"
+        ],
+        "sAMAccountName": [
+            "Performance Log Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8217
+        ],
+        "uSNCreated": [
+            8217
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Performance Log Users,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Performance Monitor Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can access performance counter data locally and remotely"
+        ],
+        "distinguishedName": [
+            "CN=Performance Monitor Users,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Performance Monitor Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{65a0909d-7099-4186-8f80-d52b89c5527d}"
+        ],
+        "objectSid": [
+            "S-1-5-32-558"
+        ],
+        "sAMAccountName": [
+            "Performance Monitor Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8216
+        ],
+        "uSNCreated": [
+            8216
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Performance Monitor Users,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Network Configuration Operators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group can have some administrative privileges to manage configuration of networking features"
+        ],
+        "distinguishedName": [
+            "CN=Network Configuration Operators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Network Configuration Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{242aee83-619c-4743-b9ce-9671a900c106}"
+        ],
+        "objectSid": [
+            "S-1-5-32-556"
+        ],
+        "sAMAccountName": [
+            "Network Configuration Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8215
+        ],
+        "uSNCreated": [
+            8215
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Network Configuration Operators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Remote Desktop Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group are granted the right to logon remotely"
+        ],
+        "distinguishedName": [
+            "CN=Remote Desktop Users,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=r.williams,CN=Users,DC=ctf,DC=local",
+            "CN=t.jones,CN=Users,DC=ctf,DC=local",
+            "CN=j.smith,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Remote Desktop Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{ec08489f-01f1-40bf-809f-a62c9e42d6aa}"
+        ],
+        "objectSid": [
+            "S-1-5-32-555"
+        ],
+        "sAMAccountName": [
+            "Remote Desktop Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            20603
+        ],
+        "uSNCreated": [
+            8214
+        ],
+        "whenChanged": [
+            "2026-05-20 03:24:50+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Remote Desktop Users,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Replicator"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Supports file replication in a domain"
+        ],
+        "distinguishedName": [
+            "CN=Replicator,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Replicator"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{f0222f4a-0a43-4688-8262-b2b119773bda}"
+        ],
+        "objectSid": [
+            "S-1-5-32-552"
+        ],
+        "sAMAccountName": [
+            "Replicator"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            16516
+        ],
+        "uSNCreated": [
+            8213
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Replicator,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Backup Operators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Backup Operators can override security restrictions for the sole purpose of backing up or restoring files"
+        ],
+        "distinguishedName": [
+            "CN=Backup Operators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Backup Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{88b6d86a-3f6d-4ada-8e64-4510dea02e4b}"
+        ],
+        "objectSid": [
+            "S-1-5-32-551"
+        ],
+        "sAMAccountName": [
+            "Backup Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            16518
+        ],
+        "uSNCreated": [
+            8212
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Backup Operators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Print Operators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members can administer printers installed on domain controllers"
+        ],
+        "distinguishedName": [
+            "CN=Print Operators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Print Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{0b645381-4160-4059-b784-79d31dc53b82}"
+        ],
+        "objectSid": [
+            "S-1-5-32-550"
+        ],
+        "sAMAccountName": [
+            "Print Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            16520
+        ],
+        "uSNCreated": [
+            8211
+        ],
+        "whenChanged": [
+            "2026-05-20 02:42:36+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Print Operators,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Guests"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted"
+        ],
+        "distinguishedName": [
+            "CN=Guests,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Guests,CN=Users,DC=ctf,DC=local",
+            "CN=Guest,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Guests"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{aa0decf8-dd3a-4be5-bcae-baa05b351fcf}"
+        ],
+        "objectSid": [
+            "S-1-5-32-546"
+        ],
+        "sAMAccountName": [
+            "Guests"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12383
+        ],
+        "uSNCreated": [
+            8208
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Guests,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "cn": [
+            "Users"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Users are prevented from making accidental or intentional system-wide changes and can run most applications"
+        ],
+        "distinguishedName": [
+            "CN=Users,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Users,CN=Users,DC=ctf,DC=local",
+            "CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=ctf,DC=local",
+            "CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c816e918-a6d9-4dcc-b2eb-503209a69d35}"
+        ],
+        "objectSid": [
+            "S-1-5-32-545"
+        ],
+        "sAMAccountName": [
+            "Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12381
+        ],
+        "uSNCreated": [
+            8202
+        ],
+        "whenChanged": [
+            "2026-05-20 02:22:53+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Users,CN=Builtin,DC=ctf,DC=local"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 02:42:36+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Administrators have complete and unrestricted access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrators,CN=Builtin,DC=ctf,DC=local"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Admins,CN=Users,DC=ctf,DC=local",
+            "CN=Enterprise Admins,CN=Users,DC=ctf,DC=local",
+            "CN=Administrator,CN=Users,DC=ctf,DC=local"
+        ],
+        "name": [
+            "Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{fa7b3793-13f7-44bd-b0a9-a549783d3c67}"
+        ],
+        "objectSid": [
+            "S-1-5-32-544"
+        ],
+        "sAMAccountName": [
+            "Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            28729
+        ],
+        "uSNCreated": [
+            8199
+        ],
+        "whenChanged": [
+            "2026-05-20 15:25:35+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:09+00:00"
+        ]
+    },
+    "dn": "CN=Administrators,CN=Builtin,DC=ctf,DC=local"
+}]

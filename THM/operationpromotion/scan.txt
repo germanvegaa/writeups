@@ -1,0 +1,30 @@
+# Nmap 7.99 scan initiated Thu Aug 27 12:23:50 2026 as: /usr/lib/nmap/nmap --privileged -sS -n -sV -sC -p22,80,139,445 -oN scan.txt 10.130.182.121
+Nmap scan report for 10.130.182.121
+Host is up (0.061s latency).
+
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 9.6p1 Ubuntu 3ubuntu13.16 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 a9:73:a5:9d:8f:db:48:93:e7:4d:b7:e9:db:9d:b8:2e (ECDSA)
+|_  256 22:66:92:cc:71:9a:3b:b4:83:0e:a0:d7:07:ba:80:ef (ED25519)
+80/tcp  open  http        Apache httpd 2.4.58 ((Ubuntu))
+|_http-server-header: Apache/2.4.58 (Ubuntu)
+| http-robots.txt: 1 disallowed entry 
+|_/admin/
+|_http-title: RecruitCorp - Careers Portal
+139/tcp open  netbios-ssn Samba smbd 4
+445/tcp open  netbios-ssn Samba smbd 4
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2026-08-27T10:24:01
+|_  start_date: N/A
+|_clock-skew: -1s
+|_nbstat: NetBIOS name: RECRUITCORP, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 27 12:24:04 2026 -- 1 IP address (1 host up) scanned in 14.00 seconds

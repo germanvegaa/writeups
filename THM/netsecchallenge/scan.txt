@@ -1,0 +1,169 @@
+# Nmap 7.99 scan initiated Thu Aug 27 18:58:12 2026 as: /usr/lib/nmap/nmap --privileged -sS -n -vv -p22,80,139,445,8081,10001,10121 -sV -sC -oN scan.txt 10.128.179.222
+Nmap scan report for 10.128.179.222
+Host is up, received reset ttl 62 (0.052s latency).
+Scanned at 2026-08-27 18:58:12 CEST for 196s
+
+PORT      STATE SERVICE     REASON         VERSION
+22/tcp    open  ssh         syn-ack ttl 62 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 ef:b7:88:04:dd:0c:c3:6d:e7:db:b1:97:bb:c9:70:b2 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7162PrFJfwZ9oCbg6JeZugcWZ1vLj3Xt1eyOY8FK44NUc+SlrPxiIzFbqr4oXJG/9csTaSS0oU3VLadLtUDZZW+2byad2jo7PWCpD40w+CBH5bnI7Vv4YjBSC3P1JhMaIPti1t1MlZrbZVmApK6Htoti/AZaFbdB02owbNrjTFe6Mi+sWm/rSei9qpkf3XlpL6w0KkybDQs2u/rMllDF96hvlKfADXLNIVAyaSsNMntrRUkSunuJCh04OPir/G384Lv9iYkNAC7ZxK6bTe5E+rqATnIa/JyOf5IJ7KcogS/JsQElDM4i0zspCWi17flw7UAgeH/yRO+0ZC931IaBGVxyjM8wkQKwlewqjJO3kiCCFhO+U4k5hea3LK8SaGRh5jPz4bjbQgQeozASgp+hFVN7QBZ0be3H+otHh4wF49YJjrxQHNhJcmr8rwzofv+BVqy/0i7DVpeLb7JzalTlpmgjwhey2o9uaEUzPd8nzEjn/t6GsNyUbz+xkx6XuxWc=
+|   256 2d:09:f7:fb:54:24:9e:4d:6b:19:bd:28:6c:81:ac:b1 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN+f/gmbXAqmG9qgPHF8Isv+Vc2XN+O6Yn8jQqvx7/3ORlsL03sZ8mhDlneNaO/6pPURem6L2qW+vc9Uw7PTiu0=
+|   256 7d:33:6c:d4:31:ed:7c:a7:50:c8:e0:ce:b5:a2:47:75 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEWxIIYr/2G6J6T+7ViV11jV0ZLMsKbodySOuzaq+PfE
+| fingerprint-strings: 
+|   NULL: 
+|_    SSH-2.0-OpenSSH_8.2p1 THM{946219583339}
+80/tcp    open  http        syn-ack ttl 62 THM{MySpecialServer007}
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-server-header: THM{MySpecialServer007}
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Content-Type: text/html
+|     Content-Length: 341
+|     Connection: close
+|     Date: Thu, 27 Aug 2026 16:58:24 GMT
+|     Server: THM{MySpecialServer007}
+|     <?xml version="1.0" encoding="iso-8859-1"?>
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <head>
+|     <title>404 Not Found</title>
+|     </head>
+|     <body>
+|     <h1>404 Not Found</h1>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Vary: Accept-Encoding
+|     Content-Type: text/html
+|     Accept-Ranges: bytes
+|     ETag: "575357650"
+|     Last-Modified: Tue, 24 Feb 2026 06:00:52 GMT
+|     Content-Length: 220
+|     Connection: close
+|     Date: Thu, 27 Aug 2026 16:58:18 GMT
+|     Server: THM{MySpecialServer007}
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <title>Welcome</title>
+|     <meta charset="UTF-8" />
+|     <meta name="viewport" content="width=device-width,initial-scale=1" />
+|     </head>
+|     <body>
+|     <h1>Hello, world!</h1>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Allow: OPTIONS, GET, HEAD, POST
+|     Content-Length: 0
+|     Connection: close
+|     Date: Thu, 27 Aug 2026 16:58:19 GMT
+|     Server: THM{MySpecialServer007}
+|   RTSPRequest: 
+|     HTTP/1.0 400 Bad Request
+|     Content-Type: text/html
+|     Content-Length: 345
+|     Connection: close
+|     Date: Thu, 27 Aug 2026 16:58:19 GMT
+|     Server: THM{MySpecialServer007}
+|     <?xml version="1.0" encoding="iso-8859-1"?>
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+|     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+|     <head>
+|     <title>400 Bad Request</title>
+|     </head>
+|     <body>
+|     <h1>400 Bad Request</h1>
+|     </body>
+|_    </html>
+|_http-title: Welcome
+139/tcp   open  netbios-ssn syn-ack ttl 62 Samba smbd 4
+445/tcp   open  netbios-ssn syn-ack ttl 62 Samba smbd 4
+8081/tcp  open  http        syn-ack ttl 62 Node.js (Express middleware)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+10001/tcp open  scp-config? syn-ack ttl 62
+10121/tcp open  ftp         syn-ack ttl 62 vsftpd 3.0.5
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port22-TCP:V=7.99%I=7%D=8/27%Time=6A906CAB%P=x86_64-pc-linux-gnu%r(NULL
+SF:,2A,"SSH-2\.0-OpenSSH_8\.2p1\x20THM{946219583339}\x20\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%I=7%D=8/27%Time=6A906CAB%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1E4,"HTTP/1\.0\x20200\x20OK\r\nVary:\x20Accept-Encoding\r\nConte
+SF:nt-Type:\x20text/html\r\nAccept-Ranges:\x20bytes\r\nETag:\x20\"57535765
+SF:0\"\r\nLast-Modified:\x20Tue,\x2024\x20Feb\x202026\x2006:00:52\x20GMT\r
+SF:\nContent-Length:\x20220\r\nConnection:\x20close\r\nDate:\x20Thu,\x2027
+SF:\x20Aug\x202026\x2016:58:18\x20GMT\r\nServer:\x20THM{MySpecialServer007
+SF:}\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n<head>\n\x20\x20<ti
+SF:tle>Welcome</title>\n\x20\x20<meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20
+SF:<meta\x20name=\"viewport\"\x20content=\"width=device-width,initial-scal
+SF:e=1\"\x20/>\n</head>\n<body>\n\x20\x20<h1>Hello,\x20world!</h1>\n</body
+SF:>\n</html>\n")%r(HTTPOptions,A0,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OP
+SF:TIONS,\x20GET,\x20HEAD,\x20POST\r\nContent-Length:\x200\r\nConnection:\
+SF:x20close\r\nDate:\x20Thu,\x2027\x20Aug\x202026\x2016:58:19\x20GMT\r\nSe
+SF:rver:\x20THM{MySpecialServer007}\r\n\r\n")%r(RTSPRequest,1FC,"HTTP/1\.0
+SF:\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html\r\nContent-Leng
+SF:th:\x20345\r\nConnection:\x20close\r\nDate:\x20Thu,\x2027\x20Aug\x20202
+SF:6\x2016:58:19\x20GMT\r\nServer:\x20THM{MySpecialServer007}\r\n\r\n<\?xm
+SF:l\x20version=\"1\.0\"\x20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\
+SF:x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xht
+SF:ml1-transitional\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xht
+SF:ml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\x20<head>\n\x20\x20<title>400
+SF:\x20Bad\x20Request</title>\n\x20</head>\n\x20<body>\n\x20\x20<h1>400\x2
+SF:0Bad\x20Request</h1>\n\x20</body>\n</html>\n")%r(FourOhFourRequest,1F6,
+SF:"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20text/html\r\nCont
+SF:ent-Length:\x20341\r\nConnection:\x20close\r\nDate:\x20Thu,\x2027\x20Au
+SF:g\x202026\x2016:58:24\x20GMT\r\nServer:\x20THM{MySpecialServer007}\r\n\
+SF:r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\
+SF:x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN
+SF:\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"http://www\.w3\.org/TR/xhtml1
+SF:/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/
+SF:1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\x20<head>\n\x20\x20<t
+SF:itle>404\x20Not\x20Found</title>\n\x20</head>\n\x20<body>\n\x20\x20<h1>
+SF:404\x20Not\x20Found</h1>\n\x20</body>\n</html>\n");
+Service Info: OS: Unix
+
+Host script results:
+| smb2-time: 
+|   date: 2026-08-27T17:00:57
+|_  start_date: N/A
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 42591/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 46200/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 37306/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 20172/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| nbstat: NetBIOS name: , NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   <00>                 Flags: <unique><active>
+|   <03>                 Flags: <unique><active>
+|   <20>                 Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+| Statistics:
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+|_clock-skew: 0s
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 27 19:01:28 2026 -- 1 IP address (1 host up) scanned in 196.15 seconds

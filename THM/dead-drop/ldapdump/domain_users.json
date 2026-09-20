@@ -1,0 +1,720 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "s.wright"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "department": [
+            "Engineering"
+        ],
+        "displayName": [
+            "Sarah Wright"
+        ],
+        "distinguishedName": [
+            "CN=s.wright,OU=Engineering,OU=People,DC=deaddrop,DC=loc"
+        ],
+        "givenName": [
+            "Sarah"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Internet Access,OU=Groups,DC=deaddrop,DC=loc"
+        ],
+        "name": [
+            "s.wright"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{3facd4d1-efb8-4759-8ba7-b22a18a02040}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-1109"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-05-11 06:11:10.184959+00:00"
+        ],
+        "sAMAccountName": [
+            "s.wright"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Wright"
+        ],
+        "title": [
+            "Software Engineer"
+        ],
+        "uSNChanged": [
+            16471
+        ],
+        "uSNCreated": [
+            16467
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "whenChanged": [
+            "2026-05-11 06:11:10+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:11:10+00:00"
+        ]
+    },
+    "dn": "CN=s.wright,OU=Engineering,OU=People,DC=deaddrop,DC=loc"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "r.patel"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "department": [
+            "Finance"
+        ],
+        "displayName": [
+            "Raj Patel"
+        ],
+        "distinguishedName": [
+            "CN=r.patel,OU=Finance,OU=People,DC=deaddrop,DC=loc"
+        ],
+        "givenName": [
+            "Raj"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Internet Access,OU=Groups,DC=deaddrop,DC=loc"
+        ],
+        "name": [
+            "r.patel"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{cbed8798-77d8-40b8-bb11-4e075d1582c9}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-1108"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-05-11 06:11:10.075733+00:00"
+        ],
+        "sAMAccountName": [
+            "r.patel"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Patel"
+        ],
+        "title": [
+            "Financial Analyst"
+        ],
+        "uSNChanged": [
+            16462
+        ],
+        "uSNCreated": [
+            16458
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "whenChanged": [
+            "2026-05-11 06:11:10+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:11:10+00:00"
+        ]
+    },
+    "dn": "CN=r.patel,OU=Finance,OU=People,DC=deaddrop,DC=loc"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "m.chen"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "department": [
+            "HR"
+        ],
+        "displayName": [
+            "Michelle Chen"
+        ],
+        "distinguishedName": [
+            "CN=m.chen,OU=HR,OU=People,DC=deaddrop,DC=loc"
+        ],
+        "givenName": [
+            "Michelle"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Internet Access,OU=Groups,DC=deaddrop,DC=loc"
+        ],
+        "name": [
+            "m.chen"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{3713ef98-c929-4c19-bf1a-f7fc048b5c78}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-1107"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-05-11 06:11:09.950558+00:00"
+        ],
+        "sAMAccountName": [
+            "m.chen"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "sn": [
+            "Chen"
+        ],
+        "title": [
+            "HR Coordinator"
+        ],
+        "uSNChanged": [
+            16453
+        ],
+        "uSNCreated": [
+            16449
+        ],
+        "userAccountControl": [
+            512
+        ],
+        "whenChanged": [
+            "2026-05-11 06:11:09+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:11:09+00:00"
+        ]
+    },
+    "dn": "CN=m.chen,OU=HR,OU=People,DC=deaddrop,DC=loc"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2026-08-26 12:54:40.779383+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Jamie Harris"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-08-24 13:43:54+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=Jamie Harris,CN=Users,DC=deaddrop,DC=loc"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-08-26 12:55:43.340593+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-08-24 09:42:46.449499+00:00"
+        ],
+        "logonCount": [
+            6
+        ],
+        "memberOf": [
+            "CN=ITSupport-Admins,CN=Users,DC=deaddrop,DC=loc"
+        ],
+        "name": [
+            "Jamie Harris"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{cd185230-7256-4343-be96-be406ee00790}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-1103"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-05-11 06:10:21.671631+00:00"
+        ],
+        "sAMAccountName": [
+            "j.harris"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            49232
+        ],
+        "uSNCreated": [
+            16409
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "userPrincipalName": [
+            "j.harris@deaddrop.loc"
+        ],
+        "whenChanged": [
+            "2026-08-24 13:43:54+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:10:21+00:00"
+        ]
+    },
+    "dn": "CN=Jamie Harris,CN=Users,DC=deaddrop,DC=loc"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-08-24 05:21:06+00:00",
+            "2026-05-19 04:33:58+00:00",
+            "2026-05-11 06:04:04+00:00",
+            "1601-01-01 18:12:16+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=deaddrop,DC=loc"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=deaddrop,DC=loc"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{58d5f1b2-36c2-4a48-a53c-0004d84f5815}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-05-11 06:04:04.377659+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            36945
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2026-08-24 05:21:06+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:04:04+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=deaddrop,DC=loc"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-05-11 06:04:04+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=deaddrop,DC=loc"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=deaddrop,DC=loc"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{c2f2b405-6a61-4a70-937c-594b905dfc8b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8197
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2026-05-11 06:03:27+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:03:27+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=deaddrop,DC=loc"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2026-05-11 06:01:03.752720+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2026-08-24 05:21:06+00:00",
+            "2026-05-19 04:33:58+00:00",
+            "2026-05-19 04:33:58+00:00",
+            "2026-05-11 06:04:04+00:00",
+            "1601-07-14 04:20:16+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=deaddrop,DC=loc"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-05-19 20:32:15.232323+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-08-24 19:37:04.831984+00:00"
+        ],
+        "logonCount": [
+            26
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=deaddrop,DC=loc",
+            "CN=Domain Admins,CN=Users,DC=deaddrop,DC=loc",
+            "CN=Enterprise Admins,CN=Users,DC=deaddrop,DC=loc",
+            "CN=Schema Admins,CN=Users,DC=deaddrop,DC=loc",
+            "CN=Administrators,CN=Builtin,DC=deaddrop,DC=loc"
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{83843ef8-250e-4456-a301-e0e07b6cd91b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2026-05-11 06:00:45.111813+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            57398
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2026-08-24 19:37:04+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:03:27+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=deaddrop,DC=loc"
+}]

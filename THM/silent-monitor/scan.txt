@@ -1,0 +1,22 @@
+# Nmap 7.99 scan initiated Wed Aug 26 01:48:40 2026 as: /usr/lib/nmap/nmap --privileged -sS -sV -sC -n -vvv -p22,5050 -oN scan.txt 10.130.161.178
+Nmap scan report for 10.130.161.178
+Host is up, received timestamp-reply ttl 62 (0.076s latency).
+Scanned at 2026-08-26 01:48:40 CEST for 8s
+
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 62 OpenSSH 8.9p1 Ubuntu 3ubuntu0.15 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 17:c0:0b:74:e8:76:da:9c:24:d7:80:f7:98:b9:b0:3b (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBL/HLUCjDlV2u0UjJs1nVO+LMp6WNz8ZIkni91rQ3RFqvdSzbBqSkJtm6ltYdp8qqo3PsNOeKymqbRwETVvn544=
+|   256 24:d2:c3:54:11:6f:d0:f3:24:b8:0a:bc:3d:cc:af:6d (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMP23fVzl96z8mUqsW3KfNhNMRxpXSPLsEKSIu6RluEt
+5050/tcp open  http    syn-ack ttl 62 Werkzeug httpd 2.0.2 (Python 3.10.12)
+|_http-title: CorpNet \xE2\x80\x94 Network Operations Centre
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET
+|_http-server-header: Werkzeug/2.0.2 Python/3.10.12
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 26 01:48:48 2026 -- 1 IP address (1 host up) scanned in 8.86 seconds

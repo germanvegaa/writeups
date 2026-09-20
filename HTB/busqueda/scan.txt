@@ -1,0 +1,16 @@
+# Nmap 7.99 scan initiated Sat Sep 19 18:02:00 2026 as: /usr/lib/nmap/nmap --privileged -n -vvv -sV -oN scan.txt 10.129.59.241
+Increasing send delay for 10.129.59.241 from 0 to 5 due to 304 out of 1013 dropped probes since last increase.
+Increasing send delay for 10.129.59.241 from 5 to 10 due to 11 out of 14 dropped probes since last increase.
+Increasing send delay for 10.129.59.241 from 10 to 20 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for 10.129.59.241
+Host is up, received echo-reply ttl 63 (0.082s latency).
+Scanned at 2026-09-19 18:02:01 CEST for 11s
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.52
+Service Info: Host: searcher.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep 19 18:02:12 2026 -- 1 IP address (1 host up) scanned in 11.49 seconds

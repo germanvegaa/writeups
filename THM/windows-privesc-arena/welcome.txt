@@ -1,0 +1,8 @@
+Welcome to CORP-NET.
+
+New employee default credentials
+================================
+Username : thmuser
+Password : Password1!
+
+Please change your password after first login.

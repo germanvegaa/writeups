@@ -1,0 +1,2 @@
+index.php           [32m (Status: 200)[0m [Size: 1131]
+dev                 [36m (Status: 301)[0m [Size: 312][34m [--> http://10.129.59.254/dev/][0m

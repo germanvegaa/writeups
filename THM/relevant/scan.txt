@@ -1,0 +1,50 @@
+# Nmap 7.99 scan initiated Tue Sep  1 17:25:50 2026 as: /usr/lib/nmap/nmap --privileged -n -sS -sV -p 80,135,3389,445,139 -sC -oN scan.txt 10.130.139.241
+Nmap scan report for 10.130.139.241
+Host is up (0.21s latency).
+
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+| http-methods: 
+|_  Potentially risky methods: TRACE
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  Windows Server 2016 Standard Evaluation 14393 microsoft-ds
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=Relevant
+| Not valid before: 2026-08-31T15:23:03
+|_Not valid after:  2027-03-02T15:23:03
+|_ssl-date: 2026-09-01T15:26:40+00:00; 0s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: RELEVANT
+|   NetBIOS_Domain_Name: RELEVANT
+|   NetBIOS_Computer_Name: RELEVANT
+|   DNS_Domain_Name: Relevant
+|   DNS_Computer_Name: Relevant
+|   Product_Version: 10.0.14393
+|_  System_Time: 2026-09-01T15:26:00+00:00
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard Evaluation 14393 (Windows Server 2016 Standard Evaluation 6.3)
+|   Computer name: Relevant
+|   NetBIOS computer name: RELEVANT\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2026-09-01T08:26:05-07:00
+|_clock-skew: mean: 1h24m01s, deviation: 3h07m52s, median: 0s
+| smb2-time: 
+|   date: 2026-09-01T15:26:02
+|_  start_date: 2026-09-01T15:23:02
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep  1 17:26:40 2026 -- 1 IP address (1 host up) scanned in 50.64 seconds

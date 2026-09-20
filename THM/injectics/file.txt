@@ -1,0 +1,15 @@
+POST /functions.php HTTP/1.1
+Host: 10.128.184.246
+Content-Length: 43
+X-Requested-With: XMLHttpRequest
+Accept-Language: en-US,en;q=0.9
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Origin: http://10.128.184.246
+Referer: http://10.128.184.246/login.php
+Accept-Encoding: gzip, deflate, br
+Cookie: PHPSESSID=pobjrr6ic5l7ierucihuglqk1q
+Connection: keep-alive
+
+username=admin&password=test&function=login

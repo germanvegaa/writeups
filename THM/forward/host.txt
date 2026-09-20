@@ -1,0 +1,2 @@
+10.128.142.56     DC01.ctf.local ctf.local DC01
+10.128.150.87     DC01.ctf.local ctf.local DC01

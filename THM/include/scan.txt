@@ -1,0 +1,19 @@
+# Nmap 7.99 scan initiated Sat Sep 12 16:52:26 2026 as: /usr/lib/nmap/nmap --privileged -sS -n -vvv -sV -p22,25,110,143,993,995,4000,5000 -oN scan.txt 10.129.178.85
+Nmap scan report for 10.129.178.85
+Host is up, received reset ttl 62 (0.060s latency).
+Scanned at 2026-09-12 16:52:26 CEST for 13s
+
+PORT     STATE  SERVICE  REASON         VERSION
+22/tcp   open   ssh      syn-ack ttl 62 OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+25/tcp   open   smtp     syn-ack ttl 62 Postfix smtpd
+110/tcp  open   pop3     syn-ack ttl 62 Dovecot pop3d
+143/tcp  open   imap     syn-ack ttl 62 Dovecot imapd (Ubuntu)
+993/tcp  open   ssl/imap syn-ack ttl 62 Dovecot imapd (Ubuntu)
+995/tcp  open   ssl/pop3 syn-ack ttl 62 Dovecot pop3d
+4000/tcp open   http     syn-ack ttl 62 Node.js (Express middleware)
+5000/tcp closed upnp     reset ttl 62
+Service Info: Host:  mail.filepath.lab; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep 12 16:52:39 2026 -- 1 IP address (1 host up) scanned in 13.32 seconds

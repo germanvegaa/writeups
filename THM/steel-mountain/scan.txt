@@ -1,0 +1,21 @@
+# Nmap 7.99 scan initiated Fri Aug 28 15:34:26 2026 as: /usr/lib/nmap/nmap --privileged -n -sS -Pn -vvv -p80,8080,135,139,445,5985,49152,49153,49155,49156 -sV -oN scan.txt 10.130.134.238
+Nmap scan report for 10.130.134.238
+Host is up, received user-set (0.088s latency).
+Scanned at 2026-08-28 15:34:26 CEST for 62s
+
+PORT      STATE SERVICE      REASON          VERSION
+80/tcp    open  http         syn-ack ttl 126 Microsoft IIS httpd 8.5
+135/tcp   open  msrpc        syn-ack ttl 126 Microsoft Windows RPC
+139/tcp   open  netbios-ssn  syn-ack ttl 126 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds syn-ack ttl 126 Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+5985/tcp  open  http         syn-ack ttl 126 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8080/tcp  open  http         syn-ack ttl 126 HttpFileServer httpd 2.3
+49152/tcp open  msrpc        syn-ack ttl 126 Microsoft Windows RPC
+49153/tcp open  msrpc        syn-ack ttl 126 Microsoft Windows RPC
+49155/tcp open  msrpc        syn-ack ttl 126 Microsoft Windows RPC
+49156/tcp open  msrpc        syn-ack ttl 126 Microsoft Windows RPC
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 28 15:35:28 2026 -- 1 IP address (1 host up) scanned in 61.58 seconds

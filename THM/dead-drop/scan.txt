@@ -1,0 +1,22 @@
+# Nmap 7.99 scan initiated Wed Aug 26 12:04:58 2026 as: /usr/lib/nmap/nmap -sS -n -vv -p22,80 -sV -sC -oN scan.txt 192.168.11.200
+Nmap scan report for 192.168.11.200
+Host is up, received echo-reply ttl 63 (0.13s latency).
+Scanned at 2026-08-26 12:04:58 CEST for 13s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 9.6p1 Ubuntu 3ubuntu13.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 f0:6f:3c:e5:e2:d0:73:d4:aa:17:c9:d3:3a:13:32:10 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBL+Tx49epkua7CcugbykasHWep0nscuFZubThERjMAjzKvwqmPKjUAE0fm1hpF9ykntk0CL/rp0wDeQNjMAWTUc=
+|   256 1d:bb:14:39:4c:e3:08:af:ac:87:ff:31:cd:1b:16:8a (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJXH2gS7gTLH7XqLO/B4/MciengXxdkTRWxqDrFGRdew
+80/tcp open  http    syn-ack ttl 63 Node.js Express framework
+| http-title: DeadDrop - Login
+|_Requested resource was /login
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 26 12:05:11 2026 -- 1 IP address (1 host up) scanned in 13.34 seconds

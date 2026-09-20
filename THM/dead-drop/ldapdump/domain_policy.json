@@ -1,0 +1,176 @@
+[{
+    "attributes": {
+        "auditingPolicy": [
+            "\u0000\u0001"
+        ],
+        "creationTime": [
+            "2026-08-26 13:11:43.207067+00:00"
+        ],
+        "dSASignature": [
+            {
+                "encoded": "AQAAACgAAAAAAAAAAAAAAAAAAAAAAAAArw7uwLS+BkOg17rRHMJpIw==",
+                "encoding": "base64"
+            }
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "dc": [
+            "deaddrop"
+        ],
+        "distinguishedName": [
+            "DC=deaddrop,DC=loc"
+        ],
+        "fSMORoleOwner": [
+            "CN=NTDS Settings,CN=DEADDROP-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "forceLogoff": [
+            -9223372036854775808
+        ],
+        "gPLink": [
+            "[LDAP://CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=deaddrop,DC=loc;0]"
+        ],
+        "instanceType": [
+            5
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lockOutObservationWindow": [
+            "0:30:00"
+        ],
+        "lockoutDuration": [
+            "0:30:00"
+        ],
+        "lockoutThreshold": [
+            0
+        ],
+        "masteredBy": [
+            "CN=NTDS Settings,CN=DEADDROP-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "maxPwdAge": [
+            "42 days, 0:00:00"
+        ],
+        "minPwdAge": [
+            "1 day, 0:00:00"
+        ],
+        "minPwdLength": [
+            7
+        ],
+        "modifiedCount": [
+            1
+        ],
+        "modifiedCountAtLastProm": [
+            0
+        ],
+        "ms-DS-MachineAccountQuota": [
+            10
+        ],
+        "msDS-AllUsersTrustQuota": [
+            1000
+        ],
+        "msDS-Behavior-Version": [
+            7
+        ],
+        "msDS-ExpirePasswordsOnSmartCardOnlyAccounts": [
+            true
+        ],
+        "msDS-IsDomainFor": [
+            "CN=NTDS Settings,CN=DEADDROP-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "msDS-NcType": [
+            0
+        ],
+        "msDS-PerUserTrustQuota": [
+            1
+        ],
+        "msDS-PerUserTrustTombstonesQuota": [
+            10
+        ],
+        "msDs-masteredBy": [
+            "CN=NTDS Settings,CN=DEADDROP-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "nTMixedDomain": [
+            0
+        ],
+        "name": [
+            "deaddrop"
+        ],
+        "nextRid": [
+            1000
+        ],
+        "objectCategory": [
+            "CN=Domain-DNS,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "domain",
+            "domainDNS"
+        ],
+        "objectGUID": [
+            "{09b35591-6dfb-4548-868f-e054e00c78ef}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130"
+        ],
+        "otherWellKnownObjects": [
+            "B:32:683A24E2E8164BD3AF86AC3C2CF3F981:CN=Keys,DC=deaddrop,DC=loc",
+            "B:32:1EB93889E40C45DF9F0C64D23BBB6237:CN=Managed Service Accounts,DC=deaddrop,DC=loc"
+        ],
+        "pwdHistoryLength": [
+            24
+        ],
+        "pwdProperties": [
+            1
+        ],
+        "rIDManagerReference": [
+            "CN=RID Manager$,CN=System,DC=deaddrop,DC=loc"
+        ],
+        "replUpToDateVector": [
+            {
+                "encoded": "AgAAAAAAAAAFAAAAAAAAAH6bUx4f4j1Dq4+3GY1LrIgHkAAAAAAAAC5inCADAAAA1kNJQIpZvEiGMqC53SqFWwaAAAAAAAAAf1kdIAMAAADzZYB+HP+7TIqceHYKwrmxBGAAAAAAAAAhnxwgAwAAAK8O7sC0vgZDoNe60RzCaSMDUAAAAAAAAKV1HCADAAAAL/3T/ivDhk+peqNodrsaKgVwAAAAAAAAoVIdIAMAAAA=",
+                "encoding": "base64"
+            }
+        ],
+        "serverState": [
+            1
+        ],
+        "subRefs": [
+            "DC=ForestDnsZones,DC=deaddrop,DC=loc",
+            "DC=DomainDnsZones,DC=deaddrop,DC=loc",
+            "CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uASCompat": [
+            1
+        ],
+        "uSNChanged": [
+            118814
+        ],
+        "uSNCreated": [
+            4099
+        ],
+        "wellKnownObjects": [
+            "B:32:6227F0AF1FC2410D8E3BB10615BB5B0F:CN=NTDS Quotas,DC=deaddrop,DC=loc",
+            "B:32:F4BE92A4C777485E878E9421D53087DB:CN=Microsoft,CN=Program Data,DC=deaddrop,DC=loc",
+            "B:32:09460C08AE1E4A4EA0F64AEE7DAA1E5A:CN=Program Data,DC=deaddrop,DC=loc",
+            "B:32:22B70C67D56E4EFB91E9300FCA3DC1AA:CN=ForeignSecurityPrincipals,DC=deaddrop,DC=loc",
+            "B:32:18E2EA80684F11D2B9AA00C04F79F805:CN=Deleted Objects,DC=deaddrop,DC=loc",
+            "B:32:2FBAC1870ADE11D297C400C04FD8D5CD:CN=Infrastructure,DC=deaddrop,DC=loc",
+            "B:32:AB8153B7768811D1ADED00C04FD8D5CD:CN=LostAndFound,DC=deaddrop,DC=loc",
+            "B:32:AB1D30F3768811D1ADED00C04FD8D5CD:CN=System,DC=deaddrop,DC=loc",
+            "B:32:A361B2FFFFD211D1AA4B00C04FD7D83A:OU=Domain Controllers,DC=deaddrop,DC=loc",
+            "B:32:AA312825768811D1ADED00C04FD8D5CD:CN=Computers,DC=deaddrop,DC=loc",
+            "B:32:A9D1CA15768811D1ADED00C04FD8D5CD:CN=Users,DC=deaddrop,DC=loc"
+        ],
+        "whenChanged": [
+            "2026-08-26 13:11:43+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:03:18+00:00"
+        ]
+    },
+    "dn": "DC=deaddrop,DC=loc"
+}]

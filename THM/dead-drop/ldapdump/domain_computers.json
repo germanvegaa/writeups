@@ -1,0 +1,268 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2026-08-24 05:07:11.810526+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DEADDROP-WRK"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "DEADDROP-WRK.deaddrop.loc"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=DEADDROP-WRK,CN=Computers,DC=deaddrop,DC=loc"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-08-26 13:12:44.774229+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-08-24 05:06:55.279293+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            39
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "DEADDROP-WRK"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{ff49023d-9fda-4d29-b535-808c60fec3b5}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-1601"
+        ],
+        "operatingSystem": [
+            "Windows Server 2019 Standard Evaluation"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (17763)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2026-08-24 05:07:14.482407+00:00"
+        ],
+        "sAMAccountName": [
+            "DEADDROP-WRK$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "WSMAN/DEADDROP-WRK",
+            "WSMAN/DEADDROP-WRK.deaddrop.loc",
+            "TERMSRV/DEADDROP-WRK",
+            "TERMSRV/DEADDROP-WRK.deaddrop.loc",
+            "RestrictedKrbHost/DEADDROP-WRK",
+            "RestrictedKrbHost/DEADDROP-WRK.deaddrop.loc",
+            "HOST/DEADDROP-WRK",
+            "HOST/DEADDROP-WRK.deaddrop.loc"
+        ],
+        "uSNChanged": [
+            36909
+        ],
+        "uSNCreated": [
+            20581
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2026-08-24 05:07:14+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-19 06:00:07+00:00"
+        ]
+    },
+    "dn": "CN=DEADDROP-WRK,CN=Computers,DC=deaddrop,DC=loc"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DEADDROP-DC"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "DEADDROP-DC.deaddrop.loc"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-11 06:04:04+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "displayName": [
+            "DEADDROP-DC$"
+        ],
+        "distinguishedName": [
+            "CN=DEADDROP-DC,OU=Domain Controllers,DC=deaddrop,DC=loc"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-08-26 13:22:01.476709+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-08-24 05:06:35.951244+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            93
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=DC,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=deaddrop,DC=loc"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "y4Ys7INHdq0=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "DEADDROP-DC"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{a8987d9d-b95a-4dff-a6e5-10f9f39df1bb}"
+        ],
+        "objectSid": [
+            "S-1-5-21-2304234032-2319324522-87291130-1000"
+        ],
+        "operatingSystem": [
+            "Windows Server 2019 Datacenter"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (17763)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2026-08-24 05:06:24.513742+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=DEADDROP-DC,OU=Domain Controllers,DC=deaddrop,DC=loc"
+        ],
+        "sAMAccountName": [
+            "DEADDROP-DC$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=DEADDROP-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=deaddrop,DC=loc"
+        ],
+        "servicePrincipalName": [
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/DEADDROP-DC.deaddrop.loc",
+            "TERMSRV/DEADDROP-DC.deaddrop.loc",
+            "ldap/DEADDROP-DC.deaddrop.loc/ForestDnsZones.deaddrop.loc",
+            "ldap/DEADDROP-DC.deaddrop.loc/DomainDnsZones.deaddrop.loc",
+            "DNS/DEADDROP-DC.deaddrop.loc",
+            "GC/DEADDROP-DC.deaddrop.loc/deaddrop.loc",
+            "HOST/DEADDROP-DC.deaddrop.loc/DEADDROP",
+            "HOST/DEADDROP-DC.deaddrop.loc/deaddrop.loc",
+            "ldap/DEADDROP-DC.deaddrop.loc/DEADDROP",
+            "ldap/DEADDROP-DC.deaddrop.loc",
+            "ldap/DEADDROP-DC.deaddrop.loc/deaddrop.loc",
+            "RestrictedKrbHost/DEADDROP-DC.deaddrop.loc",
+            "HOST/DEADDROP-DC.deaddrop.loc",
+            "TERMSRV/DEADDROP-DC",
+            "RestrictedKrbHost/DEADDROP-DC",
+            "HOST/DEADDROP-DC/DEADDROP",
+            "HOST/DEADDROP-DC",
+            "ldap/DEADDROP-DC/DEADDROP",
+            "ldap/DEADDROP-DC",
+            "RPC/c0ee0eaf-beb4-4306-a0d7-bad11cc26923._msdcs.deaddrop.loc",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/c0ee0eaf-beb4-4306-a0d7-bad11cc26923/deaddrop.loc",
+            "ldap/c0ee0eaf-beb4-4306-a0d7-bad11cc26923._msdcs.deaddrop.loc"
+        ],
+        "uSNChanged": [
+            36885
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "whenChanged": [
+            "2026-08-24 05:06:35+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-11 06:04:04+00:00"
+        ]
+    },
+    "dn": "CN=DEADDROP-DC,OU=Domain Controllers,DC=deaddrop,DC=loc"
+}]

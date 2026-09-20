@@ -1,0 +1,152 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2026-05-20 18:23:52.995304+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DC01"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "DC01.ctf.local"
+        ],
+        "dSCorePropagationData": [
+            "2026-05-20 17:51:01+00:00",
+            "2026-05-20 02:22:54+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "displayName": [
+            "DC01$"
+        ],
+        "distinguishedName": [
+            "CN=DC01,OU=Domain Controllers,DC=ctf,DC=local"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2026-08-23 11:42:06.190527+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2026-08-23 11:12:40.496977+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            37
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=CHANGE-MY-HOSTN,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=ctf,DC=local"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "tMgn7CzaFKM=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "DC01"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{630754ab-9cc5-418e-8244-8f2228a40186}"
+        ],
+        "objectSid": [
+            "S-1-5-21-1966530601-3185510712-10604624-1008"
+        ],
+        "operatingSystem": [
+            "Windows Server 2019 Datacenter"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (17763)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2026-08-23 11:12:17.877869+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=DC01,OU=Domain Controllers,DC=ctf,DC=local"
+        ],
+        "sAMAccountName": [
+            "DC01$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=ctf,DC=local"
+        ],
+        "servicePrincipalName": [
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/DC01.ctf.local",
+            "ldap/DC01.ctf.local/ForestDnsZones.ctf.local",
+            "ldap/DC01.ctf.local/DomainDnsZones.ctf.local",
+            "TERMSRV/DC01.ctf.local",
+            "DNS/DC01.ctf.local",
+            "GC/DC01.ctf.local/ctf.local",
+            "HOST/DC01.ctf.local/CTF",
+            "HOST/DC01.ctf.local/ctf.local",
+            "ldap/DC01.ctf.local/CTF",
+            "ldap/DC01.ctf.local",
+            "ldap/DC01.ctf.local/ctf.local",
+            "RestrictedKrbHost/DC01.ctf.local",
+            "HOST/DC01.ctf.local",
+            "TERMSRV/DC01",
+            "RestrictedKrbHost/DC01",
+            "HOST/DC01/CTF",
+            "HOST/DC01",
+            "ldap/DC01/CTF",
+            "ldap/DC01",
+            "RPC/640712d4-a825-468b-8fb1-65342eb804de._msdcs.ctf.local",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/640712d4-a825-468b-8fb1-65342eb804de/ctf.local",
+            "ldap/640712d4-a825-468b-8fb1-65342eb804de._msdcs.ctf.local"
+        ],
+        "uSNChanged": [
+            40982
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "whenChanged": [
+            "2026-08-23 11:12:40+00:00"
+        ],
+        "whenCreated": [
+            "2026-05-20 02:22:53+00:00"
+        ]
+    },
+    "dn": "CN=DC01,OU=Domain Controllers,DC=ctf,DC=local"
+}]

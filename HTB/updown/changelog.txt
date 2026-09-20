@@ -1,0 +1,9 @@
+Beta version
+
+1- Check a bunch of websites.
+
+-- ToDo:
+
+1- Multithreading for a faster version :D.
+2- Remove the upload option.
+3- New admin panel.

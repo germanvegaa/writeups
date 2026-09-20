@@ -1,0 +1,35 @@
+─$ gobuster dir -u http://10.129.187.173/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt -x php,txt,bak
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.129.187.173/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              php,txt,bak
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+index.php            (Status: 200) [Size: 9286]
+images               (Status: 301) [Size: 237] [--> http://10.129.187.173/images/]                                                                    
+media                (Status: 301) [Size: 236] [--> http://10.129.187.173/media/]                                                                     
+templates            (Status: 301) [Size: 240] [--> http://10.129.187.173/templates/]                                                                 
+modules              (Status: 301) [Size: 238] [--> http://10.129.187.173/modules/]                                                                   
+bin                  (Status: 301) [Size: 234] [--> http://10.129.187.173/bin/]                                                                       
+plugins              (Status: 301) [Size: 238] [--> http://10.129.187.173/plugins/]                                                                   
+includes             (Status: 301) [Size: 239] [--> http://10.129.187.173/includes/]                                                                  
+language             (Status: 301) [Size: 239] [--> http://10.129.187.173/language/]                                                                  
+README.txt           (Status: 200) [Size: 4494]
+components           (Status: 301) [Size: 241] [--> http://10.129.187.173/components/]                                                                
+cache                (Status: 301) [Size: 236] [--> http://10.129.187.173/cache/]                                                                     
+libraries            (Status: 301) [Size: 240] [--> http://10.129.187.173/libraries/]                                                                 
+robots.txt           (Status: 200) [Size: 836]
+tmp                  (Status: 301) [Size: 234] [--> http://10.129.187.173/tmp/]                                                                       
+LICENSE.txt          (Status: 200) [Size: 18092]
+layouts              (Status: 301) [Size: 238] [--> http://10.129.187.173/layouts/]                                                                   
+administrator        (Status: 301) [Size: 244] [--> http://10.129.187.173/administrator/]                                                             
+Progress: 30151 / 882232 (3.42%)^C

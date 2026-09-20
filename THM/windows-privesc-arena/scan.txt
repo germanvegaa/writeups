@@ -1,0 +1,28 @@
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: PRIVESC
+|   NetBIOS_Domain_Name: PRIVESC
+|   NetBIOS_Computer_Name: PRIVESC
+|   DNS_Domain_Name: privesc
+|   DNS_Computer_Name: privesc
+|   Product_Version: 10.0.17763
+|_  System_Time: 2026-08-21T12:20:59+00:00
+|_ssl-date: 2026-08-21T12:20:59+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=privesc
+| Not valid before: 2026-05-10T06:39:22
+|_Not valid after:  2026-11-09T06:39:22
+5985/tcp open  wsman
+
+Host script results:
+| smb2-time: 
+|   date: 2026-08-21T12:21:02
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+Nmap done: 1 IP address (1 host up) scanned in 16.22 seconds

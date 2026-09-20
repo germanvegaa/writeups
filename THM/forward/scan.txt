@@ -1,0 +1,76 @@
+# Nmap 7.99 scan initiated Sun Aug 23 13:19:49 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC -n -vv -p53,88,135,139,389,445,464,593,636,3268,3269,3389 -oN scan.txt 10.130.162.105
+Nmap scan report for 10.130.162.105
+Host is up, received echo-reply ttl 126 (0.062s latency).
+Scanned at 2026-08-23 13:19:49 CEST for 52s
+
+PORT     STATE SERVICE       REASON          VERSION
+53/tcp   open  domain        syn-ack ttl 126 Simple DNS Plus
+88/tcp   open  kerberos-sec  syn-ack ttl 126 Microsoft Windows Kerberos (server time: 2026-08-23 11:19:54Z)
+135/tcp  open  msrpc         syn-ack ttl 126 Microsoft Windows RPC
+139/tcp  open  netbios-ssn   syn-ack ttl 126 Microsoft Windows netbios-ssn
+389/tcp  open  ldap          syn-ack ttl 126 Microsoft Windows Active Directory LDAP (Domain: ctf.local, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds? syn-ack ttl 126
+464/tcp  open  kpasswd5?     syn-ack ttl 126
+593/tcp  open  ncacn_http    syn-ack ttl 126 Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped    syn-ack ttl 126
+3268/tcp open  ldap          syn-ack ttl 126 Microsoft Windows Active Directory LDAP (Domain: ctf.local, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped    syn-ack ttl 126
+3389/tcp open  ms-wbt-server syn-ack ttl 126 Microsoft Terminal Services
+|_ssl-date: 2026-08-23T11:20:37+00:00; -2s from scanner time.
+| ssl-cert: Subject: commonName=DC01.ctf.local
+| Issuer: commonName=DC01.ctf.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-05-19T02:27:27
+| Not valid after:  2026-11-18T02:27:27
+| MD5:     a5ba 7599 e686 083e 1b02 8393 ea32 dc81
+| SHA-1:   059b 417e faca 4e2e 5ba0 a4c3 b2c2 52e0 dc7e 2074
+| SHA-256: ae97 0c14 065e ff1a 29a0 9543 a9a5 ae2e 8b7f ca54 a854 277e 1c7e c535 dd1a 18af
+| -----BEGIN CERTIFICATE-----
+| MIIC4DCCAcigAwIBAgIQZEPMNpzbDKpB7DcQ9tjZqjANBgkqhkiG9w0BAQsFADAZ
+| MRcwFQYDVQQDEw5EQzAxLmN0Zi5sb2NhbDAeFw0yNjA1MTkwMjI3MjdaFw0yNjEx
+| MTgwMjI3MjdaMBkxFzAVBgNVBAMTDkRDMDEuY3RmLmxvY2FsMIIBIjANBgkqhkiG
+| 9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1+iChPp/VFWfaoXVZOiiY97uVvuk3TcA3J8F
+| 4vx28DjR6lT50CuWit6bAQ8NGd75+DhvHDhcCF9r2svJSD50rXUKCxxXzEbnEN+r
+| 2s5WO/cmdGaHtQhEo3brczAtyO5ivqgkyUDBMBTW3WmScFJjI9IA4YLvwF9auwbG
+| hkzCdl9thKiGBxWQ9TfEpoPROAwapmjoIyg5mdbUVZnOIWbQsMj2YlzctzFCnGc7
+| ffiHUpKnPMDRWbzKxmmyPobu/i1FG7UxmN8CXlGv2XkYCUoW4z0EXkS9CbZPgKbu
+| JxyscNgZDvJ4oUwlhLdDIhoHVoCGDaziS4YwVMQwNX5GMlN6PQIDAQABoyQwIjAT
+| BgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBDAwDQYJKoZIhvcNAQELBQAD
+| ggEBANDC8dWBJkmsJtdhg2zQUkcjn9YbfxUy7skYBNnSfzFCdU0bCbGUuGBNKdOD
+| LcSSQH5bu1k/iye5ixKJ3zEafwnDLi/bWhmrRvZOnCK9ro4Dix/FmeJu92oGyZ1T
+| /q+mDAVGWwratOa9alJ+4tBUlU45fHQ83QTZF/FFcOX4JxQ10nLW4Y2QPiuW+3Om
+| vk9peXef0oCexOKRRAOTe3f/pYAGDUCbRnXTyQOhTsxIbCUF23eaGGX/CKVJIhE0
+| VsaSmcVIEyAuWTnto5zyg5hE7XpUVL1uln0QdB3bDK2gJWwCqWDREt3FG314z/Hg
+| QO/8JduCOoA3WmVdY6C01ofFevM=
+|_-----END CERTIFICATE-----
+| rdp-ntlm-info: 
+|   Target_Name: CTF
+|   NetBIOS_Domain_Name: CTF
+|   NetBIOS_Computer_Name: DC01
+|   DNS_Domain_Name: ctf.local
+|   DNS_Computer_Name: DC01.ctf.local
+|   Product_Version: 10.0.17763
+|_  System_Time: 2026-08-23T11:19:57+00:00
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2026-08-23T11:19:58
+|_  start_date: N/A
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 13348/tcp): CLEAN (Timeout)
+|   Check 2 (port 25098/tcp): CLEAN (Timeout)
+|   Check 3 (port 36726/udp): CLEAN (Timeout)
+|   Check 4 (port 48396/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+|_clock-skew: mean: -2s, deviation: 0s, median: -2s
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug 23 13:20:41 2026 -- 1 IP address (1 host up) scanned in 52.18 seconds

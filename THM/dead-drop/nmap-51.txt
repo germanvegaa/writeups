@@ -1,0 +1,20 @@
+# Nmap 7.99 scan initiated Wed Aug 26 14:19:59 2026 as: /usr/lib/nmap/nmap -Pn -sT -sV -sC -n -p 53,88,135,139,445,389,636,3268,3269,3389,5985,5986 -oN nmap-51.txt 192.168.11.51
+Nmap scan report for 192.168.11.51
+Host is up (0.00s latency).
+
+PORT     STATE  SERVICE          VERSION
+53/tcp   closed domain
+88/tcp   closed kerberos-sec
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+389/tcp  closed ldap
+445/tcp  closed microsoft-ds
+636/tcp  closed ldapssl
+3268/tcp closed globalcatLDAP
+3269/tcp closed globalcatLDAPssl
+3389/tcp closed ms-wbt-server
+5985/tcp closed wsman
+5986/tcp closed wsmans
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 26 14:20:43 2026 -- 1 IP address (1 host up) scanned in 43.48 seconds
