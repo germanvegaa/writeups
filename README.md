@@ -1,3 +1,5 @@
+<img width="800" height="711" alt="HD-wallpaper-backtrack-linux-black-carbon-cool-dark-dragon-hack-kali" src="https://github.com/user-attachments/assets/b3caba17-cc4a-4966-801d-b981781cfe9d" />
+
 # Writeups
 
 Walkthroughs de máquinas y salas de CTF que voy resolviendo, principalmente en TryHackMe y HackTheBox.
