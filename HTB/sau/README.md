@@ -18,7 +18,13 @@ Dos puertos abiertos: 22 (OpenSSH 8.2p1 Ubuntu) y 55555 (HTTP, Golang net/http).
 nmap 10.129.229.26 -p22,55555 -n -sV -sC -vvv -oN targets
 ```
 
-El puerto 55555 redirige a `/web` y responde con "Request Baskets", una herramienta que crea cestas HTTP para inspeccionar y reenviar peticiones a otro destino.
+El puerto 55555 redirige a `/web` y responde con "Request Baskets", una herramienta que crea cestas HTTP para inspeccionar y reenviar peticiones a otro destino. Probé `http-enum` de nmap y `whatweb` sobre ese puerto para buscar rutas adicionales, sin resultado:
+
+```
+nmap -sV --script=http-enum 10.129.229.26 -p 55555
+nmap -p 55555 --script=http-enum --script-args http-enum.basepath=/web/ 10.129.229.26
+whatweb http://10.129.229.26:55555/
+```
 
 ## SSRF en Request Baskets (CVE-2023-27163)
 
