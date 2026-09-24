@@ -6,6 +6,7 @@ Walkthroughs de máquinas y salas de CTF que voy resolviendo, principalmente en 
 
 ## HackTheBox
 
+- [Escape](HTB/escape) — 24-25 de septiembre de 2026
 - [Help](HTB/help) — 22-23 de septiembre de 2026
 - [Sau](HTB/sau) — 22 de septiembre de 2026
 - [Updown](HTB/updown) — 20 de septiembre de 2026
