@@ -57,19 +57,19 @@ Es un ejecutable .NET (Mono/.NET assembly). Antes de tirar de `strings` pruebo h
 strings UserInfo.exe
 ```
 
-La salida en ASCII muestra símbolos de un `.cctor`/`Program` que usa `DirectorySearcher` contra LDAP, con campos `enc_password` y `getPassword`, y referencias a `FromBase64String`/`GetString`: el programa trae una contraseña de servicio cifrada en Base64 embebida en el binario. Repito la extracción en UTF-16LE, que es donde vive la cadena real:
+La salida en ASCII muestra símbolos de un `.cctor`/`Program` que usa `DirectorySearcher` contra LDAP, con campos `enc_password` y `getPassword`, y referencias a `FromBase64String`/`GetString`: el programa trae una contraseña de servicio cifrada embebida en el binario. Repito la extracción en UTF-16LE, que es donde vive la cadena real:
 
 ```
 strings -el UserInfo.exe
 ```
 
-Aparece la cadena `0Nv32PTwgYjzg9/8j5TbmvPd3e7WhtWWyuPsyO76/Y+U193E`. La decodifico:
+Aparecen dos cadenas sueltas: `0Nv32PTwgYjzg9/8j5TbmvPd3e7WhtWWyuPsyO76/Y+U193E` (el valor de `enc_password`) y, un poco más abajo, `armando`. Pruebo lo obvio primero:
 
 ```
 echo '0Nv32PTwgYjzg9/8j5TbmvPd3e7WhtWWyuPsyO76/Y+U193E' | base64 -d
 ```
 
-Resultado: `nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz`. Es la contraseña de la cuenta de servicio LDAP que usa `UserInfo.exe` para consultar el directorio.
+No da texto legible, solo bytes binarios: no es una contraseña en Base64 sin más, `getPassword()` hace algo más con esos bytes antes de devolver el valor real. Busco un decompilador .NET online, `decompiler.com`, y le subo `UserInfo.exe`. Ahí aparece el cuerpo completo de la clase `Protected` con `enc_password` y la cadena `armando` como `key`: el método decodifica primero en Base64 y luego recorre cada byte haciendo XOR con la key (repitiéndola cíclicamente) y un segundo XOR contra la constante `0xDF`. Copio esa misma lógica y la pego en `dotnetfiddle.net` para compilarla y ejecutarla directamente en el navegador contra la cadena embebida, sin tener que reescribirla a mano en Python. La ejecución imprime la contraseña en claro: `nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz`. Es la contraseña de la cuenta de servicio LDAP que usa `UserInfo.exe` para consultar el directorio.
 
 ## Enumeración autenticada como ldap
 
