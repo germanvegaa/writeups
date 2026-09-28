@@ -8,6 +8,7 @@ Walkthroughs de máquinas y salas de CTF que voy resolviendo, principalmente en 
 
 | Máquina | Fecha | SO |
 |---|---|:---:|
+| [Broker](HTB/broker) | 28 de septiembre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20" alt="Linux" title="Linux" /> |
 | [Support](HTB/support) | 26 de septiembre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="20" alt="Windows" title="Windows" /> |
 | [ServMon](HTB/servmon) | 25-26 de septiembre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="20" alt="Windows" title="Windows" /> |
 | [Escape](HTB/escape) | 24-25 de septiembre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="20" alt="Windows" title="Windows" /> |
