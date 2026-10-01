@@ -1,0 +1,11 @@
+# license, visit http://creativecommons.org/licenses/by-sa/3.0/.bak[33m (Status: 403)[0m [Size: 162]
+# license, visit http://creativecommons.org/licenses/by-sa/3.0/.txt[33m (Status: 403)[0m [Size: 162]
+index.php           [32m (Status: 200)[0m [Size: 1523]
+gallery             [36m (Status: 302)[0m [Size: 326][34m [--> http://10.129.229.27][0m
+admin               [36m (Status: 302)[0m [Size: 326][34m [--> http://10.129.229.27][0m
+storage             [36m (Status: 301)[0m [Size: 178][34m [--> http://10.129.229.27/storage/][0m
+css                 [36m (Status: 301)[0m [Size: 178][34m [--> http://10.129.229.27/css/][0m
+js                  [36m (Status: 301)[0m [Size: 178][34m [--> http://10.129.229.27/js/][0m
+logout              [36m (Status: 302)[0m [Size: 326][34m [--> http://10.129.229.27][0m
+robots.txt          [32m (Status: 200)[0m [Size: 24]
+fonts               [36m (Status: 301)[0m [Size: 178][34m [--> http://10.129.229.27/fonts/][0m

