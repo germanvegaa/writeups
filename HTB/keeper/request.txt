@@ -1,0 +1,16 @@
+POST /rt/Approvals/ HTTP/1.1
+Host: tickets.keeper.htb
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 59
+Origin: http://tickets.keeper.htb
+Connection: keep-alive
+Referer: http://tickets.keeper.htb/rt/Approvals/
+Cookie: RT_SID_tickets.keeper.htb.80=4dd040b863757e04ebac2d2270bdaab5
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+ShowPending=1&ShowResolved=1&CreatedBefore=0&CreatedAfter=0

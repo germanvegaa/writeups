@@ -8,6 +8,7 @@ Walkthroughs de máquinas y salas de CTF que voy resolviendo, principalmente en 
 
 | Máquina | Fecha | SO |
 |---|---|:---:|
+| [Keeper](HTB/keeper) | 8 de octubre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20" alt="Linux" title="Linux" /> |
 | [Soccer](HTB/soccer) | 2 de octubre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20" alt="Linux" title="Linux" /> |
 | [Intentions](HTB/intentions) | 28 de septiembre - 1 de octubre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20" alt="Linux" title="Linux" /> |
 | [Broker](HTB/broker) | 28 de septiembre de 2026 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20" alt="Linux" title="Linux" /> |
